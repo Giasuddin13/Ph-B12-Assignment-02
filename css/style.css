@@ -1,0 +1,63 @@
+
+/* noto serif fonts start */
+.noto-serif-regular> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* noto serif fonts end */
+
+/* inter fonts start */
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* inter fonts end */
+/* common css start */
+body{
+  width: 1140px;
+  margin: 30px 150px;
+}
+.primary-color{
+    color: #8987A1;
+} 
+.secondary-color{
+  color: #252432;
+}
+
+/* common css end */
+/* nav css start */
+.nav-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    
+}
+.menu ul li{
+  list-style: none;
+  padding: 10px 20px;
+  
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #8987A1;
+  transition: 0.4s;
+}
+.menu ul li a:hover{
+  color: #252432;
+
+}
+.active{
+  color: #252432!important;
+}
+
+/* nav css end */
