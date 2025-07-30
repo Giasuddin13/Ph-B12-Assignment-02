@@ -1,12 +1,9 @@
 
 /* noto serif fonts start */
-.noto-serif-regular> {
+.noto-serif-regular {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 /* noto serif fonts end */
 
@@ -14,7 +11,6 @@
 .inter-regular {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -61,3 +57,26 @@ body{
 }
 
 /* nav css end */
+
+/* hero area start */
+.hero-area{
+  display: flex;
+  margin: 50px 0;
+}
+.hero-content{
+  width: 50%;
+  padding-right: 50px;
+}
+.hero-content h1{
+  font-size: 45px;
+}
+.hero-content h1 span{
+  color: #E95A08;
+}
+.hero-content p{
+  color: #8987A1;
+}
+.hero-img{
+width: 50%;
+}
+/* hero area end */
