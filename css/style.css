@@ -3,7 +3,7 @@
 .noto-serif-regular {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-style: normal;
+  
 }
 /* noto serif fonts end */
 
@@ -11,7 +11,7 @@
 .inter-regular {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
+  
 }
 
 /* inter fonts end */
@@ -19,12 +19,26 @@
 body{
   width: 1140px;
   margin: 30px 150px;
+  background: #F5F8FF;
 }
 .primary-color{
     color: #8987A1;
 } 
 .secondary-color{
   color: #252432;
+}
+.section-title{
+  text-align: center;
+  padding: 0px 100px;
+}
+.section-title h1{
+  font-size: 35px;
+}
+.section-title h1 span{
+  color: #E95A08;
+}
+.section-title p{
+  color: #8987A1;
 }
 
 /* common css end */
@@ -80,3 +94,27 @@ body{
 width: 50%;
 }
 /* hero area end */
+
+/* product area start */
+
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 20px;
+  
+}
+.product{
+  text-align: center;
+}
+.product :nth-child(3){
+  font-weight: bold;
+}
+.product a{
+  text-decoration: none;
+  background: #E95A08;
+  display: block;
+  padding: 12px;
+  color: white;
+  text-transform: uppercase;
+}
+/* product area end */
