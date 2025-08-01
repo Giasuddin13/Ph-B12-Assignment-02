@@ -118,3 +118,41 @@ width: 50%;
   text-transform: uppercase;
 }
 /* product area end */
+
+/* review section start */
+.review-area{
+  display: flex;
+  margin-top: 210px;
+  
+}
+.review-img{
+  position: relative;
+}
+.seller-badge{
+  position: absolute;
+  right: -100px;
+  top: -120px;
+}
+.seller-badge img{
+  height: 250px;
+  
+  
+}
+.review-content ul{
+  color: #8987A1;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+.review-content ul li{
+  padding-top: 20px;
+}
+.review-content{
+  padding: 0px 20px 60px 60px;
+}
+.review-content h2{
+  padding-top: 40px;
+  font-size: 45px;
+}
+
+
+/* review section end */
