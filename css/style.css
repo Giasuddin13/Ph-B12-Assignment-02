@@ -2,7 +2,7 @@
 /* noto serif fonts start */
 .noto-serif-regular {
   font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   
 }
 /* noto serif fonts end */
@@ -10,16 +10,18 @@
 /* inter fonts start */
 .inter-regular {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   
 }
 
 /* inter fonts end */
 /* common css start */
 body{
-  width: 1140px;
-  margin: 30px 150px;
   background: #F5F8FF;
+}
+.fixed-width{
+  width: 1140px;
+  margin: auto;
 }
 .primary-color{
     color: #8987A1;
@@ -55,7 +57,9 @@ body{
 .menu ul li{
   list-style: none;
   padding: 10px 20px;
-  
+}
+.menu ul li:last-child{
+  padding-right: 0px;
 }
 .menu ul li a{
   text-decoration: none;
@@ -75,7 +79,7 @@ body{
 /* hero area start */
 .hero-area{
   display: flex;
-  margin: 50px 0;
+  margin: 50px auto;
 }
 .hero-content{
   width: 50%;
@@ -191,10 +195,11 @@ width: 50%;
 }
 .deal-right{
   width: 70%;
-  margin: 50px 50px 0 50px;
+  margin: 50px 0 0 50px;
   position: relative;
   border-radius: 10px;
   background-image: url(../assets/deal-zabo.png);
+  background-size: cover;
 }
 .deal-right::after,.deal-left-1::after,.deal-left-2::after{
   position: absolute;
@@ -223,3 +228,40 @@ width: 50%;
   font-size: 22px;
 }
 /* deal section end */
+
+/* newsletter section start */
+.newsletter-area{
+  background: url(../assets/news-letter-bg.png);
+  text-align: center;
+  padding: 200px 0;
+  margin: 50px 0;
+  background-size: cover;
+}
+.newsletter-area h2{
+  font-size: 36px;
+  color: white;
+  font-family: "Noto Serif", serif;
+}
+.newsletter-area input{
+  padding: 10px 200px 10px 5px;
+  border: none;
+  
+}
+.newsletter-area input:focus{
+  outline: none;
+}
+.newsletter-area input[placeholder="Write email"]{
+  text-align: left;
+  color: #8987A1;
+  font-family: "Inter", sans-serif;
+}
+.newsletter-area button{
+  padding: 5px;
+  border: none;
+  padding: 10px 20px;
+  background: #E95A08;
+  color: white;
+  font-family: "Inter", sans-serif;
+  
+}
+/* newsletter section end */
